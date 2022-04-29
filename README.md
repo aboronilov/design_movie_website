@@ -6,4 +6,4 @@ Clone repo:
     git clone https://github.com/aboronilov/design_movie_website
 ```
 
-Open ##index.html file in any browser
+Open ```index.html``` file in any browser

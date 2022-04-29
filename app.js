@@ -16,3 +16,12 @@ arrows.forEach((arrow, index) => {
       }
    });
 });
+
+const ball = document.querySelector(".toggle-ball")
+const items = document.querySelectorAll(".container,.movie-list-title,.navbar-container,.sidebar,.left-menu-icon,.toggle,.toggle-ball")
+
+ball.addEventListener("click", () => {
+   items.forEach(item => {
+      item.classList.toggle('active')
+   })
+})
